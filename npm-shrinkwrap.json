@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "8.1.0",
+  "version": "8.2.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -2748,6 +2748,11 @@
         "observ": "0.2.0"
       }
     },
+    "on-change-network": {
+      "version": "0.0.1",
+      "resolved": "https://registry.npmjs.org/on-change-network/-/on-change-network-0.0.1.tgz",
+      "integrity": "sha1-7xKdahAaliB36SD4mKMeFHZCNks="
+    },
     "on-wakeup": {
       "version": "1.0.1",
       "resolved": "https://registry.npmjs.org/on-wakeup/-/on-wakeup-1.0.1.tgz",
@@ -3517,9 +3522,9 @@
       "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
     },
     "scuttlebot": {
-      "version": "8.2.0",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-8.2.0.tgz",
-      "integrity": "sha1-nQvX8GiE/UEZJvyrX5UYh15Jwrc=",
+      "version": "8.3.1",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-8.3.1.tgz",
+      "integrity": "sha1-5fnTvIBq51eti2YvB3e9ahWch4k=",
       "requires": {
         "bash-color": "0.0.4",
         "broadcast-stream": "0.0.0",
@@ -3543,6 +3548,7 @@
         "non-private-ip": "1.1.0",
         "observ": "0.2.0",
         "observ-debounce": "1.1.1",
+        "on-change-network": "0.0.1",
         "on-wakeup": "1.0.1",
         "osenv": "0.1.5",
         "pull-abortable": "4.0.0",
