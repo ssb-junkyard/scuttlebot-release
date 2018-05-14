@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "10.4.3",
+  "version": "10.4.4",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -29,6 +29,13 @@
         "mkdirp": "0.5.1",
         "obv": "0.0.0",
         "uint48be": "1.0.2"
+      },
+      "dependencies": {
+        "obv": {
+          "version": "0.0.0",
+          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.0.tgz",
+          "integrity": "sha1-7eq4Ro+R1BkzYu1/kdC5bdOaecE="
+        }
       }
     },
     "ansi-escapes": {
@@ -947,13 +954,6 @@
         "pull-cont": "0.0.0",
         "pull-looper": "1.0.0",
         "pull-stream": "3.6.8"
-      },
-      "dependencies": {
-        "obv": {
-          "version": "0.0.1",
-          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.1.tgz",
-          "integrity": "sha1-yyNhBjQVNvDaxIFeBnCCIcrX+14="
-        }
       }
     },
     "flumelog-offset": {
@@ -978,11 +978,6 @@
           "version": "4.0.0",
           "resolved": "https://registry.npmjs.org/looper/-/looper-4.0.0.tgz",
           "integrity": "sha1-dwat7VmpntygbmtUu4bI7BnJUVU="
-        },
-        "obv": {
-          "version": "0.0.1",
-          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.1.tgz",
-          "integrity": "sha1-yyNhBjQVNvDaxIFeBnCCIcrX+14="
         }
       }
     },
@@ -1001,6 +996,13 @@
         "pull-paramap": "1.2.2",
         "pull-stream": "3.6.8",
         "pull-write": "1.1.4"
+      },
+      "dependencies": {
+        "obv": {
+          "version": "0.0.0",
+          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.0.tgz",
+          "integrity": "sha1-7eq4Ro+R1BkzYu1/kdC5bdOaecE="
+        }
       }
     },
     "flumeview-query": {
@@ -1130,6 +1132,11 @@
             "typewiselite": "1.0.0"
           }
         },
+        "obv": {
+          "version": "0.0.0",
+          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.0.tgz",
+          "integrity": "sha1-7eq4Ro+R1BkzYu1/kdC5bdOaecE="
+        },
         "prebuild-install": {
           "version": "4.0.0",
           "resolved": "https://registry.npmjs.org/prebuild-install/-/prebuild-install-4.0.0.tgz",
@@ -1194,6 +1201,11 @@
           "version": "1.1.5",
           "resolved": "https://registry.npmjs.org/atomic-file/-/atomic-file-1.1.5.tgz",
           "integrity": "sha512-TG+5YFiaKQ6CZiSQsosGMJ/IJzwMZ4V/rSdEXlD6+DwKyv8OyeUcprq34kp4yuS6bfQYXhxBC2Vm8PWo+iKBGQ=="
+        },
+        "obv": {
+          "version": "0.0.0",
+          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.0.tgz",
+          "integrity": "sha1-7eq4Ro+R1BkzYu1/kdC5bdOaecE="
         }
       }
     },
@@ -3193,9 +3205,9 @@
       }
     },
     "obv": {
-      "version": "0.0.0",
-      "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.0.tgz",
-      "integrity": "sha1-7eq4Ro+R1BkzYu1/kdC5bdOaecE="
+      "version": "0.0.1",
+      "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.1.tgz",
+      "integrity": "sha1-yyNhBjQVNvDaxIFeBnCCIcrX+14="
     },
     "on-change-network": {
       "version": "0.0.2",
@@ -4039,9 +4051,9 @@
       "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
     },
     "scuttlebot": {
-      "version": "10.4.4",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-10.4.4.tgz",
-      "integrity": "sha512-/khKO4KKkBRtiaKVuCheXIGB8kDuqpna8kDhVWo/xUTaLqDiypWJJfDoj7CCRirVmpcuvarUJqi0hxo99nGcSA==",
+      "version": "10.4.5",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-10.4.5.tgz",
+      "integrity": "sha512-t8xTphTHE1pSkd8QDjngFlUmWG9ZdJKPKY0CiArLfeC6efWdScqEMH3Z0lCnE5cNOfegsVk5xKc6JFkmOXHZ+g==",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "0.0.4",
@@ -4066,6 +4078,7 @@
         "mv": "2.1.1",
         "non-private-ip": "1.1.0",
         "observ-debounce": "1.1.1",
+        "obv": "0.0.1",
         "on-change-network": "0.0.2",
         "on-wakeup": "1.0.1",
         "osenv": "0.1.5",
@@ -4225,11 +4238,6 @@
           "version": "2.2.1",
           "resolved": "https://registry.npmjs.org/ltgt/-/ltgt-2.2.1.tgz",
           "integrity": "sha1-81ypHEk/e3PaDgdJUwTxezH4fuU="
-        },
-        "obv": {
-          "version": "0.0.1",
-          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.1.tgz",
-          "integrity": "sha1-yyNhBjQVNvDaxIFeBnCCIcrX+14="
         }
       }
     },
@@ -4626,11 +4634,6 @@
         "ssb-ref": "2.11.1"
       },
       "dependencies": {
-        "obv": {
-          "version": "0.0.1",
-          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.1.tgz",
-          "integrity": "sha1-yyNhBjQVNvDaxIFeBnCCIcrX+14="
-        },
         "pull-cont": {
           "version": "0.1.1",
           "resolved": "https://registry.npmjs.org/pull-cont/-/pull-cont-0.1.1.tgz",
