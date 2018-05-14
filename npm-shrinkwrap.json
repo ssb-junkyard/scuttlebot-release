@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "9.2.4",
+  "version": "9.4.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -2763,14 +2763,12 @@
     "os-tmpdir": {
       "version": "1.0.2",
       "resolved": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz",
-      "integrity": "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=",
-      "dev": true
+      "integrity": "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ="
     },
     "osenv": {
       "version": "0.1.5",
       "resolved": "https://registry.npmjs.org/osenv/-/osenv-0.1.5.tgz",
       "integrity": "sha512-0CWcCECdMVc2Rw3U5w9ZjqX6ga6ubk1xDVKxtBQPK7wis/0F2r9T6k4ydGYhecl7YUBxBVxhL5oisPsNxAPe2g==",
-      "dev": true,
       "requires": {
         "os-homedir": "1.0.2",
         "os-tmpdir": "1.0.2"
@@ -3490,9 +3488,9 @@
       "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
     },
     "scuttlebot": {
-      "version": "9.4.0",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-9.4.0.tgz",
-      "integrity": "sha1-CNCyoLETwmMx+9XV0l5mZSkrNIA=",
+      "version": "9.4.1",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-9.4.1.tgz",
+      "integrity": "sha1-iGUUlFa8B1qa3Hb4eVdlteMoKHI=",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "0.0.4",
@@ -3517,6 +3515,7 @@
         "observ-debounce": "1.1.1",
         "on-change-network": "0.0.2",
         "on-wakeup": "1.0.1",
+        "osenv": "0.1.5",
         "pull-abortable": "4.0.0",
         "pull-cat": "1.1.11",
         "pull-file": "0.5.0",
