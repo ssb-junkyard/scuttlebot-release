@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "9.4.6",
+  "version": "9.4.7",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -3141,6 +3141,11 @@
         "pull-stream": "3.6.8"
       }
     },
+    "pull-next": {
+      "version": "0.0.2",
+      "resolved": "https://registry.npmjs.org/pull-next/-/pull-next-0.0.2.tgz",
+      "integrity": "sha1-OfDpxF13l4ImR7ldumutJD2ZZV4="
+    },
     "pull-notify": {
       "version": "0.1.1",
       "resolved": "https://registry.npmjs.org/pull-notify/-/pull-notify-0.1.1.tgz",
@@ -3546,9 +3551,9 @@
       "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
     },
     "scuttlebot": {
-      "version": "9.4.7",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-9.4.7.tgz",
-      "integrity": "sha1-q6giXEazzxLQ1hZYrcRdglSb/9A=",
+      "version": "9.5.0",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-9.5.0.tgz",
+      "integrity": "sha1-BCib0rYLXzpWsX3LVx6DDNOSgTQ=",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "0.0.4",
@@ -3580,6 +3585,7 @@
         "pull-inactivity": "2.1.2",
         "pull-level": "2.0.4",
         "pull-many": "1.0.8",
+        "pull-next": "0.0.2",
         "pull-notify": "0.1.1",
         "pull-paramap": "1.2.2",
         "pull-ping": "2.0.2",
