@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "10.2.0",
+  "version": "10.2.1",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -791,15 +791,6 @@
       "integrity": "sha512-1MkrZNvWTKCaigbn+W15elq2BB/L22nqrSY5DKlo3X6+vclJm8Bb5djXJBmEX6fS3+zCh/F4VBK5Z2KxJt4s2Q==",
       "requires": {
         "once": "1.4.0"
-      }
-    },
-    "epidemic-broadcast-trees": {
-      "version": "1.0.3",
-      "resolved": "https://registry.npmjs.org/epidemic-broadcast-trees/-/epidemic-broadcast-trees-1.0.3.tgz",
-      "integrity": "sha1-G0OgzrOXmLhdgH5PpSgrAwsmzcs=",
-      "requires": {
-        "explain-error": "1.0.4",
-        "pull-stream": "3.6.8"
       }
     },
     "errno": {
@@ -4048,9 +4039,9 @@
       "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
     },
     "scuttlebot": {
-      "version": "10.2.1",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-10.2.1.tgz",
-      "integrity": "sha1-6M43Nf66z2Imv4Zuqde6X+OprdY=",
+      "version": "10.3.0",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-10.3.0.tgz",
+      "integrity": "sha1-gj5YftFDi2oqS1L7G105sIpjmEw=",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "0.0.4",
@@ -4099,7 +4090,6 @@
         "ssb-blobs": "1.1.5",
         "ssb-client": "4.5.7",
         "ssb-config": "2.2.0",
-        "ssb-ebt": "0.0.7",
         "ssb-friends": "2.4.0",
         "ssb-keys": "7.0.16",
         "ssb-links": "3.0.3",
@@ -4607,29 +4597,6 @@
           "requires": {
             "ip": "0.3.3"
           }
-        }
-      }
-    },
-    "ssb-ebt": {
-      "version": "0.0.7",
-      "resolved": "https://registry.npmjs.org/ssb-ebt/-/ssb-ebt-0.0.7.tgz",
-      "integrity": "sha1-CoBO4kd4U2iWPNimRGYbUK3Dsm4=",
-      "requires": {
-        "epidemic-broadcast-trees": "1.0.3",
-        "obv": "0.0.1",
-        "pull-cont": "0.1.1",
-        "pull-stream": "3.6.8"
-      },
-      "dependencies": {
-        "obv": {
-          "version": "0.0.1",
-          "resolved": "https://registry.npmjs.org/obv/-/obv-0.0.1.tgz",
-          "integrity": "sha1-yyNhBjQVNvDaxIFeBnCCIcrX+14="
-        },
-        "pull-cont": {
-          "version": "0.1.1",
-          "resolved": "https://registry.npmjs.org/pull-cont/-/pull-cont-0.1.1.tgz",
-          "integrity": "sha1-3x1YDicXV7qay666IN4kIdZg1hg="
         }
       }
     },
