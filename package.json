@@ -20,6 +20,10 @@
     "ssb-ws": "^0.3.1",
     "tape": "~4.0.0"
   },
+  "bin": {
+    "scuttlebot": "./node_modules/scuttlebot/bin.js",
+    "sbot": "./node_modules/scuttlebot/bin.js"
+  },
   "scripts": {
     "test": "cd node_modules/scuttlebot; set -e; for t in test/*.js; do node $t; done"
   },
@@ -27,3 +31,4 @@
   "license": "MIT",
   "version": "9.2.0"
 }
+
