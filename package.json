@@ -7,7 +7,7 @@
     "url": "git://github.com/ssbc/scuttlebot-release.git"
   },
   "dependencies": {
-    "scuttlebot": "8.3.1"
+    "scuttlebot": "8.4.0"
   },
   "devDependencies": {
     "cat-names": "~1.0.2",
@@ -17,6 +17,7 @@
     "level-test": "^2.0.1",
     "noderify": "~1.0.0",
     "ssb-msg-schemas": "~3.2.0",
+    "ssb-ws": "^0.3.1",
     "tape": "~4.0.0"
   },
   "scripts": {
@@ -24,5 +25,5 @@
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT",
-  "version": "8.3.1"
+  "version": "8.4.0"
 }
