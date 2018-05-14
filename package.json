@@ -7,7 +7,7 @@
     "url": "git://github.com/ssbc/scuttlebot-release.git"
   },
   "dependencies": {
-    "scuttlebot": "10.0.6"
+    "scuttlebot": "10.0.7"
   },
   "devDependencies": {
     "cat-names": "~1.0.2",
@@ -26,5 +26,5 @@
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT",
-  "version": "10.0.6"
+  "version": "10.0.7"
 }
