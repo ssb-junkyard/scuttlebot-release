@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "9.1.0",
+  "version": "9.2.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -1385,6 +1385,11 @@
       "version": "0.5.0",
       "resolved": "https://registry.npmjs.org/he/-/he-0.5.0.tgz",
       "integrity": "sha1-LAX/rvkLaOhg8/0rVO9YCYknfuI="
+    },
+    "hmac": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/hmac/-/hmac-1.0.1.tgz",
+      "integrity": "sha1-Fr2muK1a5whIobnsfG81d9+xmyQ="
     },
     "hoox": {
       "version": "0.0.1",
@@ -3479,9 +3484,9 @@
       "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
     },
     "scuttlebot": {
-      "version": "9.2.0",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-9.2.0.tgz",
-      "integrity": "sha1-cFy92jWmi+7ZsDlbNQ36QxZYPbA=",
+      "version": "9.1.1",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-9.1.1.tgz",
+      "integrity": "sha1-lOEYq8hEL1FZEI2QlTVD/ZKcylc=",
       "requires": {
         "bash-color": "0.0.4",
         "broadcast-stream": "0.0.0",
@@ -3522,7 +3527,8 @@
         "ssb-blobs": "0.1.8",
         "ssb-client": "4.5.7",
         "ssb-config": "2.2.0",
-        "ssb-keys": "7.0.16",
+        "ssb-feed": "2.3.0",
+        "ssb-keys": "5.1.2",
         "ssb-msgs": "5.0.0",
         "ssb-ref": "2.11.1",
         "statistics": "2.0.1",
@@ -3637,6 +3643,16 @@
           "integrity": "sha1-b4b/ldJwuJw+vyVbYDG3Ay3JnMo=",
           "requires": {
             "pull-pushable": "2.2.0"
+          }
+        },
+        "ssb-keys": {
+          "version": "7.0.16",
+          "resolved": "https://registry.npmjs.org/ssb-keys/-/ssb-keys-7.0.16.tgz",
+          "integrity": "sha512-EhLkRzgF7YaRc47L8YZb+TcxEXZy9DPWCF+vCt5nSNm8Oj+Pz8pBVSOlrLKZVbcAKFjIJhqY32oTjknu3E1KVQ==",
+          "requires": {
+            "chloride": "2.2.9",
+            "mkdirp": "0.5.1",
+            "private-box": "0.2.1"
           }
         }
       }
@@ -3867,6 +3883,18 @@
         "pull-stream": "3.6.8",
         "ssb-config": "2.2.0",
         "ssb-keys": "7.0.16"
+      },
+      "dependencies": {
+        "ssb-keys": {
+          "version": "7.0.16",
+          "resolved": "https://registry.npmjs.org/ssb-keys/-/ssb-keys-7.0.16.tgz",
+          "integrity": "sha512-EhLkRzgF7YaRc47L8YZb+TcxEXZy9DPWCF+vCt5nSNm8Oj+Pz8pBVSOlrLKZVbcAKFjIJhqY32oTjknu3E1KVQ==",
+          "requires": {
+            "chloride": "2.2.9",
+            "mkdirp": "0.5.1",
+            "private-box": "0.2.1"
+          }
+        }
       }
     },
     "ssb-config": {
@@ -3905,16 +3933,47 @@
         "pull-stream": "3.6.8",
         "ssb-keys": "7.0.16",
         "ssb-ref": "2.11.1"
+      },
+      "dependencies": {
+        "ssb-keys": {
+          "version": "7.0.16",
+          "resolved": "https://registry.npmjs.org/ssb-keys/-/ssb-keys-7.0.16.tgz",
+          "integrity": "sha512-EhLkRzgF7YaRc47L8YZb+TcxEXZy9DPWCF+vCt5nSNm8Oj+Pz8pBVSOlrLKZVbcAKFjIJhqY32oTjknu3E1KVQ==",
+          "requires": {
+            "chloride": "2.2.9",
+            "mkdirp": "0.5.1",
+            "private-box": "0.2.1"
+          }
+        }
       }
     },
     "ssb-keys": {
-      "version": "7.0.16",
-      "resolved": "https://registry.npmjs.org/ssb-keys/-/ssb-keys-7.0.16.tgz",
-      "integrity": "sha512-EhLkRzgF7YaRc47L8YZb+TcxEXZy9DPWCF+vCt5nSNm8Oj+Pz8pBVSOlrLKZVbcAKFjIJhqY32oTjknu3E1KVQ==",
+      "version": "5.1.2",
+      "resolved": "https://registry.npmjs.org/ssb-keys/-/ssb-keys-5.1.2.tgz",
+      "integrity": "sha1-KxnEtmpmuaMMKtGFRCdxVq3OVgs=",
       "requires": {
+        "blake2s": "1.0.1",
         "chloride": "2.2.9",
+        "deep-equal": "0.2.2",
+        "hmac": "1.0.1",
         "mkdirp": "0.5.1",
-        "private-box": "0.2.1"
+        "private-box": "0.0.3",
+        "ssb-ref": "2.11.1"
+      },
+      "dependencies": {
+        "deep-equal": {
+          "version": "0.2.2",
+          "resolved": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.2.2.tgz",
+          "integrity": "sha1-hLdFiW80xoTpjyzg5Cq69Du6AX0="
+        },
+        "private-box": {
+          "version": "0.0.3",
+          "resolved": "https://registry.npmjs.org/private-box/-/private-box-0.0.3.tgz",
+          "integrity": "sha1-mfzSRI6uOut20KnjLww8CtyO7Sk=",
+          "requires": {
+            "chloride": "2.2.9"
+          }
+        }
       }
     },
     "ssb-msg-schemas": {
