@@ -1,0 +1,27 @@
+{
+  "name": "scuttlebot-release",
+  "description": "publish of scuttlebot with shrinkwrapped deps",
+  "homepage": "https://github.com/ssbc/scuttlebot-release",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssbc/scuttlebot-release.git"
+  },
+  "dependencies": {
+    "scuttlebot": "10.0.0"
+  },
+  "devDependencies": {
+    "cat-names": "~1.0.2",
+    "dog-names": "~1.0.2",
+    "level-sublevel": "~6.3.15",
+    "level-test": "^2.0.1",
+    "noderify": "~1.0.0",
+    "ssb-msg-schemas": "~3.2.0",
+    "tape": "~4.0.0"
+  },
+  "scripts": {
+    "test": "cd node_modules/scuttlebot; set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT",
+  "version": "10.0.0"
+}

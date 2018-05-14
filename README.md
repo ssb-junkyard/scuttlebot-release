@@ -1,0 +1,6 @@
+# scuttlebot-release
+
+
+## License
+
+MIT
