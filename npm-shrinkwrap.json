@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "11.2.1",
+  "version": "11.3.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -441,7 +441,7 @@
       "requires": {
         "anymatch": "1.3.2",
         "async-each": "1.0.1",
-        "fsevents": "1.2.3",
+        "fsevents": "1.2.4",
         "glob-parent": "2.0.0",
         "inherits": "2.0.3",
         "is-binary-path": "1.0.1",
@@ -762,13 +762,14 @@
       }
     },
     "encoding-down": {
-      "version": "4.0.0",
-      "resolved": "https://registry.npmjs.org/encoding-down/-/encoding-down-4.0.0.tgz",
-      "integrity": "sha512-jyhdwd61FJEXJQk9KaaUIXXoe6Uix15lBGY/pBv1qEqFgOuzSwgREeb0eaP7ZdA7C3rNFBhs6Fj/RifNkLCaFw==",
+      "version": "4.0.1",
+      "resolved": "https://registry.npmjs.org/encoding-down/-/encoding-down-4.0.1.tgz",
+      "integrity": "sha512-AlSE+ugBIpLL0i9if2SlnOZ4oWj/XvBb8tw2Ie/pFB73vdYs5O/6plRyqIgjbZbz8onaL20AAuMP87LWbP56IQ==",
       "requires": {
         "abstract-leveldown": "4.0.3",
         "level-codec": "8.0.0",
-        "level-errors": "1.0.5"
+        "level-errors": "1.0.5",
+        "xtend": "4.0.1"
       },
       "dependencies": {
         "abstract-leveldown": {
@@ -982,9 +983,9 @@
       }
     },
     "flumelog-offset": {
-      "version": "3.2.6",
-      "resolved": "https://registry.npmjs.org/flumelog-offset/-/flumelog-offset-3.2.6.tgz",
-      "integrity": "sha512-hE0vWDqFMjMhXROWEqEb9OFr6VFSjB8lvu4hgeQO9WxI9OqKVl0TD48Mf3NeTKrtXqHyxkfzQwMSw6fgKKf1lA==",
+      "version": "3.2.7",
+      "resolved": "https://registry.npmjs.org/flumelog-offset/-/flumelog-offset-3.2.7.tgz",
+      "integrity": "sha512-41vF3WvdoLi7vOiobmGUNUh0L/mB/55IcHkvzqkXCLr1RC/H8/qHcwkq71oG7rSQTW5I3L/aiXm0nyFu0AmpYw==",
       "requires": {
         "aligned-block-file": "1.1.2",
         "append-batch": "0.0.1",
@@ -1093,7 +1094,7 @@
           "resolved": "https://registry.npmjs.org/level-packager/-/level-packager-2.1.1.tgz",
           "integrity": "sha512-6l3G6dVkmdvHwOJrEA9d9hL6SSFrzwjQoLP8HsvohOgfY/8Z9LyTKNCM5Gc84wtsUWCuIHu6r+S6WrCtTWUJCw==",
           "requires": {
-            "encoding-down": "4.0.0",
+            "encoding-down": "4.0.1",
             "levelup": "2.0.2"
           }
         },
@@ -1172,12 +1173,13 @@
       }
     },
     "flumeview-query": {
-      "version": "6.1.2",
-      "resolved": "https://registry.npmjs.org/flumeview-query/-/flumeview-query-6.1.2.tgz",
-      "integrity": "sha512-fPBN2eVYHpy5syutc36M5bqduDOR7mGwF2u+ThKAV04dKzy/HbAp7HrRvk2Lq7UNumPGp80nx7XYlRHLzw528A==",
+      "version": "6.2.0",
+      "resolved": "https://registry.npmjs.org/flumeview-query/-/flumeview-query-6.2.0.tgz",
+      "integrity": "sha512-tq7rD63gixBDOPegw10khz/d5Bnq9qW9IbURHbWuJkG5CUBm3JP4QQSIF/Phl99jz66MRuXoXjRrXXQLN89iNQ==",
       "requires": {
+        "deep-equal": "1.0.1",
         "flumeview-level": "3.0.4",
-        "map-filter-reduce": "3.0.6",
+        "map-filter-reduce": "3.0.7",
         "pull-flatmap": "0.0.1",
         "pull-paramap": "1.2.2",
         "pull-sink-through": "0.0.0",
@@ -1185,9 +1187,9 @@
       },
       "dependencies": {
         "map-filter-reduce": {
-          "version": "3.0.6",
-          "resolved": "https://registry.npmjs.org/map-filter-reduce/-/map-filter-reduce-3.0.6.tgz",
-          "integrity": "sha512-QJK6zFAeJXSwLB0Dz66wnGT3ebe/Cuc1y54d/AIcEaou5V1YicAaWf341uFnpDBVm27JfHgZtJD1aAU3lKhxCg==",
+          "version": "3.0.7",
+          "resolved": "https://registry.npmjs.org/map-filter-reduce/-/map-filter-reduce-3.0.7.tgz",
+          "integrity": "sha512-B7D6q6wm6UE+vcTozUPdROwJp/SQJGrNcD4+M81oVBmVCR1hX7bRHAvzwyiQUsGFAOfp62mno440Wg3RK/MBlA==",
           "requires": {
             "binary-search": "1.3.3",
             "pull-sink-through": "0.0.0",
@@ -1260,13 +1262,13 @@
       "integrity": "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
     },
     "fsevents": {
-      "version": "1.2.3",
-      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-1.2.3.tgz",
-      "integrity": "sha512-X+57O5YkDTiEQGiw8i7wYc2nQgweIekqkepI8Q3y4wVlurgBt2SuwxTeYUYMZIGpLZH3r/TsMjczCMXE5ZOt7Q==",
+      "version": "1.2.4",
+      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-1.2.4.tgz",
+      "integrity": "sha512-z8H8/diyk76B7q5wg+Ud0+CqzcAF3mBBI/bA5ne5zrRUUIvNkJY//D3BqyH571KuAC4Nr7Rw7CjWX4r0y9DvNg==",
       "optional": true,
       "requires": {
         "nan": "2.10.0",
-        "node-pre-gyp": "0.9.1"
+        "node-pre-gyp": "0.10.0"
       },
       "dependencies": {
         "abbrev": {
@@ -1335,7 +1337,7 @@
           }
         },
         "deep-extend": {
-          "version": "0.4.2",
+          "version": "0.5.1",
           "bundled": true,
           "optional": true
         },
@@ -1491,7 +1493,7 @@
           }
         },
         "node-pre-gyp": {
-          "version": "0.9.1",
+          "version": "0.10.0",
           "bundled": true,
           "optional": true,
           "requires": {
@@ -1501,7 +1503,7 @@
             "nopt": "4.0.1",
             "npm-packlist": "1.1.10",
             "npmlog": "4.1.2",
-            "rc": "1.2.6",
+            "rc": "1.2.7",
             "rimraf": "2.6.2",
             "semver": "5.5.0",
             "tar": "4.4.1"
@@ -1587,11 +1589,11 @@
           "optional": true
         },
         "rc": {
-          "version": "1.2.6",
+          "version": "1.2.7",
           "bundled": true,
           "optional": true,
           "requires": {
-            "deep-extend": "0.4.2",
+            "deep-extend": "0.5.1",
             "ini": "1.3.5",
             "minimist": "1.2.0",
             "strip-json-comments": "2.0.1"
@@ -4156,7 +4158,7 @@
         "deep-equal": "1.0.1",
         "explain-error": "1.0.4",
         "flumedb": "0.4.6",
-        "flumelog-offset": "3.2.6",
+        "flumelog-offset": "3.2.7",
         "flumeview-reduce": "1.3.13",
         "graphreduce": "3.0.4",
         "has-network": "0.0.1",
@@ -4195,12 +4197,12 @@
         "pull-stringify": "1.2.2",
         "rimraf": "2.6.2",
         "secret-stack": "4.1.0",
-        "secure-scuttlebutt": "18.0.4",
+        "secure-scuttlebutt": "18.0.5",
         "sodium-native": "2.1.6",
         "ssb-blobs": "1.1.5",
         "ssb-client": "4.5.7",
         "ssb-config": "2.2.0",
-        "ssb-ebt": "5.1.5",
+        "ssb-ebt": "5.2.0",
         "ssb-friends": "2.4.0",
         "ssb-keys": "7.0.16",
         "ssb-links": "3.0.3",
@@ -4250,9 +4252,9 @@
       }
     },
     "secure-scuttlebutt": {
-      "version": "18.0.4",
-      "resolved": "https://registry.npmjs.org/secure-scuttlebutt/-/secure-scuttlebutt-18.0.4.tgz",
-      "integrity": "sha512-14ClR0G8UoH7SiMXe8UugWcUkz82SSwUMuGE5/PGEz4jEZIF+GQpVKLAESXVUg4FDN4+9RNfGd3Tdoj0fmY+mA==",
+      "version": "18.0.5",
+      "resolved": "https://registry.npmjs.org/secure-scuttlebutt/-/secure-scuttlebutt-18.0.5.tgz",
+      "integrity": "sha512-GRC00Pw3kPeX3PrKFnwL1DS9kI+LBKLwGPSVUa54e4iN6KaAm8m+Lo/sj6lwwfsVn2BI6HP7TiQKZT55diFT6w==",
       "requires": {
         "async-write": "2.1.0",
         "cont": "1.0.3",
@@ -4260,7 +4262,7 @@
         "explain-error": "1.0.4",
         "flumecodec": "0.0.1",
         "flumedb": "0.4.6",
-        "flumelog-offset": "3.2.6",
+        "flumelog-offset": "3.2.7",
         "flumeview-hashtable": "1.0.3",
         "flumeview-level": "3.0.4",
         "flumeview-reduce": "1.3.13",
@@ -4278,7 +4280,7 @@
         "ssb-keys": "7.0.16",
         "ssb-msgs": "5.2.0",
         "ssb-ref": "2.11.1",
-        "ssb-validate": "3.0.7",
+        "ssb-validate": "3.0.8",
         "typewiselite": "1.0.0"
       },
       "dependencies": {
@@ -4359,7 +4361,7 @@
           "resolved": "https://registry.npmjs.org/level-packager/-/level-packager-2.1.1.tgz",
           "integrity": "sha512-6l3G6dVkmdvHwOJrEA9d9hL6SSFrzwjQoLP8HsvohOgfY/8Z9LyTKNCM5Gc84wtsUWCuIHu6r+S6WrCtTWUJCw==",
           "requires": {
-            "encoding-down": "4.0.0",
+            "encoding-down": "4.0.1",
             "levelup": "2.0.2"
           }
         },
@@ -4771,7 +4773,7 @@
           "resolved": "https://registry.npmjs.org/level-packager/-/level-packager-2.1.1.tgz",
           "integrity": "sha512-6l3G6dVkmdvHwOJrEA9d9hL6SSFrzwjQoLP8HsvohOgfY/8Z9LyTKNCM5Gc84wtsUWCuIHu6r+S6WrCtTWUJCw==",
           "requires": {
-            "encoding-down": "4.0.0",
+            "encoding-down": "4.0.1",
             "levelup": "2.0.2"
           }
         },
@@ -4878,9 +4880,9 @@
       }
     },
     "ssb-ebt": {
-      "version": "5.1.5",
-      "resolved": "https://registry.npmjs.org/ssb-ebt/-/ssb-ebt-5.1.5.tgz",
-      "integrity": "sha512-8dY9NfUXtO1DwVxfEoJbEQTCiQ+E7VQFe8FSFL1v003n6Xk0t8QbPZdtGHatPMIjld8PFBCBZYL/obydIgQG4A==",
+      "version": "5.2.0",
+      "resolved": "https://registry.npmjs.org/ssb-ebt/-/ssb-ebt-5.2.0.tgz",
+      "integrity": "sha512-u7n5O2YRyF6SvX4RMxf7I1Mm6r95pmSKshx1CbmnOpa05PFzzFvi3vjiQnse1TEpWYcVpYn2zwugOVflZxZlhw==",
       "requires": {
         "base64-url": "1.3.3",
         "epidemic-broadcast-trees": "6.3.3",
@@ -4926,7 +4928,7 @@
       "resolved": "https://registry.npmjs.org/ssb-links/-/ssb-links-3.0.3.tgz",
       "integrity": "sha512-x09ShIMjwvdZI7aDZm8kc1v5YCGZa9ulCOoxrf/RYJ98s5gbTfO9CBCzeMBAeQ5kRwSuKjiOxJHdeEBkj4Y6hw==",
       "requires": {
-        "flumeview-query": "6.1.2",
+        "flumeview-query": "6.2.0",
         "map-filter-reduce": "2.2.1",
         "pull-stream": "3.6.8",
         "ssb-msgs": "5.2.0"
@@ -4983,7 +4985,7 @@
       "integrity": "sha512-AjRY8S6gVTy9JeTpKY72GmWTgxAHmjCEIpIlQMcIQ13XVgQl61VOKB67KwwRRyIMJOh1y6Ruxm+9am8EuNBsBQ==",
       "requires": {
         "explain-error": "1.0.4",
-        "flumeview-query": "6.1.2",
+        "flumeview-query": "6.2.0",
         "pull-stream": "3.6.8"
       }
     },
@@ -5004,9 +5006,9 @@
       }
     },
     "ssb-validate": {
-      "version": "3.0.7",
-      "resolved": "https://registry.npmjs.org/ssb-validate/-/ssb-validate-3.0.7.tgz",
-      "integrity": "sha1-l+mCz4AzGvQwFCsosccigM7sCuI=",
+      "version": "3.0.8",
+      "resolved": "https://registry.npmjs.org/ssb-validate/-/ssb-validate-3.0.8.tgz",
+      "integrity": "sha512-3MYgNQAMGsuIPQsCnwcHW1EciWA/28EfHIlkPifpOIwFYY5jkbFuaKIzAyB8EPV/t4t84rUSh/GhORpWWMwcrg==",
       "requires": {
         "ssb-ref": "2.11.1"
       }

@@ -21,10 +21,11 @@
     "scuttlebot": "./node_modules/scuttlebot/bin.js",
     "sbot": "./node_modules/scuttlebot/bin.js"
   },
+  "main": "./node_modules/scuttlebot/index.js",
   "scripts": {
     "test": "cd node_modules/scuttlebot; set -e; for t in test/*.js; do node $t; done"
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT",
-  "version": "11.3.0"
+  "version": "11.3.0-1"
 }
