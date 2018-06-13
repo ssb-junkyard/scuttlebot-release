@@ -7,13 +7,13 @@
     "url": "git://github.com/ssbc/scuttlebot-release.git"
   },
   "dependencies": {
-    "scuttlebot": "11.3.1"
+    "scuttlebot": "11.3.2"
   },
   "devDependencies": {
     "cat-names": "~1.0.2",
     "dog-names": "~1.0.2",
     "level-sublevel": "~6.3.15",
-    "level-test": "^2.0.1",
+    "level-test": "^3.0.0",
     "ssb-msg-schemas": "~3.2.0",
     "tape": "~4.0.0"
   },
@@ -27,5 +27,5 @@
   },
   "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://dominictarr.com)",
   "license": "MIT",
-  "version": "11.3.1undefined"
+  "version": "11.3.2"
 }
