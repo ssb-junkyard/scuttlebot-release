@@ -3,7 +3,7 @@ var _pkg = require('scuttlebot/package.json')
 var pkg = require('./package.json')
 
 var version = process.argv[2]
-var build = process.argv[3]
+var build = process.argv[3] || ''
 pkg.devDependencies = _pkg.devDependencies
 pkg.dependencies = {
   scuttlebot: version
