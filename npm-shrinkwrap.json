@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "11.4.2",
+  "version": "11.4.3",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -3090,9 +3090,9 @@
       "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
     },
     "scuttlebot": {
-      "version": "11.4.3",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-11.4.3.tgz",
-      "integrity": "sha512-gxx4DjcgElgNfXcfvVTT11IK38/jWHP+Dcd9woyTV5kuNgZQ9DILt5vUad4boGCOwjQUhit08rS5hucF5xLV6g==",
+      "version": "11.4.4",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-11.4.4.tgz",
+      "integrity": "sha512-+9G622W6j55cGUXgMDTqnj7dJiq7VEGAWnqf2VH5b0AprM8Y2jsN/NkX4HhCHTq1LZh4XP1Z4bO29G6KLmaalg==",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "0.0.4",
