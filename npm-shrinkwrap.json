@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "11.4.1",
+  "version": "11.4.2",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -672,6 +672,14 @@
         "unique-random-array": "1.0.1"
       }
     },
+    "dynamic-dijkstra": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/dynamic-dijkstra/-/dynamic-dijkstra-1.0.0.tgz",
+      "integrity": "sha512-AUbCFABXNoon689xft5ROX/fO9pdttZ6wZcMXZ4oH85Bn9rtiMdVHVBbAZ9kxAewdm5L1m+y+n97s8ofwya8WA==",
+      "requires": {
+        "heap": "0.2.6"
+      }
+    },
     "ed2curve": {
       "version": "0.1.4",
       "resolved": "https://registry.npmjs.org/ed2curve/-/ed2curve-0.1.4.tgz",
@@ -1174,6 +1182,11 @@
       "resolved": "https://registry.npmjs.org/he/-/he-0.5.0.tgz",
       "integrity": "sha1-LAX/rvkLaOhg8/0rVO9YCYknfuI="
     },
+    "heap": {
+      "version": "0.2.6",
+      "resolved": "https://registry.npmjs.org/heap/-/heap-0.2.6.tgz",
+      "integrity": "sha1-CH4fELBGky/IWU3Z5tN4r8nR5aw="
+    },
     "hoox": {
       "version": "0.0.1",
       "resolved": "https://registry.npmjs.org/hoox/-/hoox-0.0.1.tgz",
@@ -1444,6 +1457,15 @@
       "integrity": "sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=",
       "requires": {
         "is-buffer": "1.1.6"
+      }
+    },
+    "layered-graph": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/layered-graph/-/layered-graph-1.0.0.tgz",
+      "integrity": "sha512-GFMTMJ2plvrB6Y+UD9DQKnfHWcSAZawWzJ/RUHR/tR7n9Wl17Q0z99WGSyrSTXAju2SIvWjN3U0MsRNxC2FsJQ==",
+      "requires": {
+        "dynamic-dijkstra": "1.0.0",
+        "pull-notify": "0.1.1"
       }
     },
     "level": {
@@ -3068,9 +3090,9 @@
       "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
     },
     "scuttlebot": {
-      "version": "11.4.2",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-11.4.2.tgz",
-      "integrity": "sha512-JbOKdMFCyoALwpiK5FM8qikpFvEqCdRycbFGiOdhhQT0VrTWCO1PXDFuDAHnCBTDYvjjO88M9njq2BOXVypvAg==",
+      "version": "11.4.3",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-11.4.3.tgz",
+      "integrity": "sha512-gxx4DjcgElgNfXcfvVTT11IK38/jWHP+Dcd9woyTV5kuNgZQ9DILt5vUad4boGCOwjQUhit08rS5hucF5xLV6g==",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "0.0.4",
@@ -3119,7 +3141,7 @@
         "ssb-client": "4.6.0",
         "ssb-config": "2.2.1",
         "ssb-ebt": "5.2.3",
-        "ssb-friends": "2.4.0",
+        "ssb-friends": "3.1.3",
         "ssb-keys": "7.0.16",
         "ssb-links": "3.0.3",
         "ssb-msgs": "5.2.0",
@@ -3464,12 +3486,13 @@
       }
     },
     "ssb-friends": {
-      "version": "2.4.0",
-      "resolved": "https://registry.npmjs.org/ssb-friends/-/ssb-friends-2.4.0.tgz",
-      "integrity": "sha1-DUDNlqEvIznJBkqK0dWnE+kcV64=",
+      "version": "3.1.3",
+      "resolved": "https://registry.npmjs.org/ssb-friends/-/ssb-friends-3.1.3.tgz",
+      "integrity": "sha512-bufgvAcqjAyjKfmh788dr3fV9YYrIgdkIhfETPHidbgIKgx15clNUzjP/s7FZk2PwwrjHyQ54kE0BR2em6u/nQ==",
       "requires": {
         "flumeview-reduce": "1.3.13",
         "graphreduce": "3.0.4",
+        "layered-graph": "1.0.0",
         "obv": "0.0.1",
         "pull-cont": "0.1.1",
         "pull-flatmap": "0.0.1",
