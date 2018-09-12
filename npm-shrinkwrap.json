@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -3432,9 +3432,9 @@
       "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g=="
     },
     "scuttlebot": {
-      "version": "12.0.0",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-12.0.0.tgz",
-      "integrity": "sha512-urSCUgjbqaOF+X7WyLmRxCpgmVap6thGpHnj9Z3wbEMkZ23Y3XkrTbuVujNAd/TPolfvg3m/dHT3LVQ8bYxCJQ==",
+      "version": "12.0.1",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-12.0.1.tgz",
+      "integrity": "sha512-Gff+JNKZX1YfOL83Z3rWPAb8MCKVMdHFfgyHMOYeZ84vK63rI+C5zaM3+NQDjUIXn/p6oiiC7dcjUybmjv2y2A==",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "~0.0.3",
@@ -3880,9 +3880,9 @@
       }
     },
     "ssb-config": {
-      "version": "2.3.0",
-      "resolved": "https://registry.npmjs.org/ssb-config/-/ssb-config-2.3.0.tgz",
-      "integrity": "sha512-kDYWOFtzwS0RcXodu8QZ7TnsK+N1LKCSPWAFFcEvun4gKgVCggSa2f9kvfxAaslSBVB/uR0Em5IIp3stBGENhA==",
+      "version": "2.3.1",
+      "resolved": "https://registry.npmjs.org/ssb-config/-/ssb-config-2.3.1.tgz",
+      "integrity": "sha512-n2gR5vZnBk5ufgvhtKRzQRR/npUwtTtIxuZ7lUOEn5Ao+twx3g5ykJ3LAnIwu7A1HnIBmYUBq9FWJfORT2jwKQ==",
       "requires": {
         "deep-extend": "^0.6.0",
         "non-private-ip": "^1.2.1",
