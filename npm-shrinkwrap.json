@@ -609,6 +609,14 @@
         "heap": "^0.2.6"
       }
     },
+    "dynamic-dijkstra": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/dynamic-dijkstra/-/dynamic-dijkstra-1.0.0.tgz",
+      "integrity": "sha512-AUbCFABXNoon689xft5ROX/fO9pdttZ6wZcMXZ4oH85Bn9rtiMdVHVBbAZ9kxAewdm5L1m+y+n97s8ofwya8WA==",
+      "requires": {
+        "heap": "0.2.6"
+      }
+    },
     "ed2curve": {
       "version": "0.1.4",
       "resolved": "https://registry.npmjs.org/ed2curve/-/ed2curve-0.1.4.tgz",
@@ -1835,6 +1843,15 @@
       "requires": {
         "dynamic-dijkstra": "^1.0.0",
         "pull-notify": "^0.1.1"
+      }
+    },
+    "layered-graph": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/layered-graph/-/layered-graph-1.0.0.tgz",
+      "integrity": "sha512-GFMTMJ2plvrB6Y+UD9DQKnfHWcSAZawWzJ/RUHR/tR7n9Wl17Q0z99WGSyrSTXAju2SIvWjN3U0MsRNxC2FsJQ==",
+      "requires": {
+        "dynamic-dijkstra": "1.0.0",
+        "pull-notify": "0.1.1"
       }
     },
     "level": {
