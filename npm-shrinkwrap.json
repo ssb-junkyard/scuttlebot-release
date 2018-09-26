@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "12.1.0",
+  "version": "12.2.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -1063,9 +1063,9 @@
       }
     },
     "flumedb": {
-      "version": "0.4.9",
-      "resolved": "https://registry.npmjs.org/flumedb/-/flumedb-0.4.9.tgz",
-      "integrity": "sha512-z932cCXHteJXKcwoev8/RfJ9tQ10FeRCZ6Jh55UnxN/ayZraYZvNYObl8ujbho7xQZB1CDt2WTHCN5gEYGBqGw==",
+      "version": "0.5.1",
+      "resolved": "https://registry.npmjs.org/flumedb/-/flumedb-0.5.1.tgz",
+      "integrity": "sha512-WB/q5YYEvVB2ozp7xhp3ur5NfX03HZywx6EEV6AlKjd1PodZdHVspz3NpakV++mVB89CRoH2nq+WdY33ntbfQw==",
       "requires": {
         "cont": "1.0.3",
         "explain-error": "1.0.4",
@@ -4284,7 +4284,7 @@
         "pull-stringify": "1.2.2",
         "rimraf": "2.6.2",
         "secret-stack": "4.2.1",
-        "secure-scuttlebutt": "18.3.1",
+        "secure-scuttlebutt": "18.3.3",
         "ssb-blobs": "1.1.5",
         "ssb-client": "4.6.0",
         "ssb-config": "2.3.2",
@@ -4338,16 +4338,16 @@
       }
     },
     "secure-scuttlebutt": {
-      "version": "18.3.1",
-      "resolved": "https://registry.npmjs.org/secure-scuttlebutt/-/secure-scuttlebutt-18.3.1.tgz",
-      "integrity": "sha512-UhUYH79fX8DXlVyzTsoaRMcqyFD0VADEmQUDUn5vJWvWEEmvW0VkWUxTiLEcScW3xGT8Mel6aaCBdjuwy1RW2g==",
+      "version": "18.3.3",
+      "resolved": "https://registry.npmjs.org/secure-scuttlebutt/-/secure-scuttlebutt-18.3.3.tgz",
+      "integrity": "sha512-f1APqe25N1Te++xtP1ZFnZ9hff/9lbj1o2fMnvFcGD+BezvwkKuR2RURRdu1NApDp0Xmglki45UeVqMfvs73iw==",
       "requires": {
         "async-write": "2.1.0",
         "cont": "1.0.3",
         "deep-equal": "0.2.2",
         "explain-error": "1.0.4",
         "flumecodec": "0.0.1",
-        "flumedb": "0.4.9",
+        "flumedb": "0.5.1",
         "flumelog-offset": "3.3.2",
         "flumeview-hashtable": "1.0.4",
         "flumeview-level": "3.0.5",
