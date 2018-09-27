@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "12.2.0",
+  "version": "12.2.0-1",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -453,7 +453,7 @@
         "is-electron": "2.1.0",
         "sodium-browserify": "1.2.4",
         "sodium-browserify-tweetnacl": "0.2.3",
-        "sodium-chloride": "1.1.0",
+        "sodium-chloride": "1.1.2",
         "sodium-native": "2.2.2"
       }
     },
@@ -1112,9 +1112,9 @@
       }
     },
     "flumeview-level": {
-      "version": "3.0.5",
-      "resolved": "https://registry.npmjs.org/flumeview-level/-/flumeview-level-3.0.5.tgz",
-      "integrity": "sha512-LKW+YdJGemOo7TnUwpFHq4cBBiYAIKtWk+G2CK7zrxbCIiAHemBRudohBOUKuSUZZ0CReR5fJ73peBHW02VerA==",
+      "version": "3.0.6",
+      "resolved": "https://registry.npmjs.org/flumeview-level/-/flumeview-level-3.0.6.tgz",
+      "integrity": "sha512-omfYDMixWGL8Xx/mFl7xoALZvvOePiN/7jzY/kUJz3TR4px55QV4tZMba63QPyKj7NZVAPE61wq//P5sdiqvQw==",
       "requires": {
         "charwise": "3.0.1",
         "explain-error": "1.0.4",
@@ -1141,7 +1141,7 @@
       "integrity": "sha512-8QBannTFLICARmflhHpXNeR5hh6IzIyJz4XhKTofzmxq/hXEn1un7aF6P6dRQkOwthENDTbSB07eWKqwnYDKtw==",
       "requires": {
         "deep-equal": "1.0.1",
-        "flumeview-level": "3.0.5",
+        "flumeview-level": "3.0.6",
         "map-filter-reduce": "3.2.1",
         "pull-flatmap": "0.0.1",
         "pull-paramap": "1.2.2",
@@ -2218,12 +2218,20 @@
       }
     },
     "layered-graph": {
-      "version": "1.0.0",
-      "resolved": "https://registry.npmjs.org/layered-graph/-/layered-graph-1.0.0.tgz",
-      "integrity": "sha512-GFMTMJ2plvrB6Y+UD9DQKnfHWcSAZawWzJ/RUHR/tR7n9Wl17Q0z99WGSyrSTXAju2SIvWjN3U0MsRNxC2FsJQ==",
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/layered-graph/-/layered-graph-1.1.0.tgz",
+      "integrity": "sha512-PSQEdXbmwffcwZ0i7HNfJI/cGnUqVTyt2caanHH/ixxzBqapONxAWYlnj13r3Q79V5ALiCtGrkRnaUo3zwKfzA==",
       "requires": {
         "dynamic-dijkstra": "1.0.0",
+        "pull-cont": "0.1.1",
         "pull-notify": "0.1.1"
+      },
+      "dependencies": {
+        "pull-cont": {
+          "version": "0.1.1",
+          "resolved": "https://registry.npmjs.org/pull-cont/-/pull-cont-0.1.1.tgz",
+          "integrity": "sha1-3x1YDicXV7qay666IN4kIdZg1hg="
+        }
       }
     },
     "level": {
@@ -2866,7 +2874,7 @@
         "pull-cat": "1.1.11",
         "pull-stream": "3.6.9",
         "pull-ws": "3.3.1",
-        "secret-handshake": "1.1.13",
+        "secret-handshake": "1.1.14",
         "separator-escape": "0.0.0",
         "socks": "2.2.1",
         "stream-to-pull-stream": "1.7.2"
@@ -4290,7 +4298,7 @@
         "ssb-config": "2.3.2",
         "ssb-ebt": "5.2.3",
         "ssb-friends": "3.1.3",
-        "ssb-keys": "7.1.2",
+        "ssb-keys": "7.1.3",
         "ssb-links": "3.0.3",
         "ssb-msgs": "5.2.0",
         "ssb-query": "2.2.1",
@@ -4302,9 +4310,9 @@
       }
     },
     "secret-handshake": {
-      "version": "1.1.13",
-      "resolved": "https://registry.npmjs.org/secret-handshake/-/secret-handshake-1.1.13.tgz",
-      "integrity": "sha512-jDpA1kPJGg+jEUOZGvqksQFGPWIx0aA96HpjU+AqIBKIKzmvZeOq0Lfl/XqVC5jviWTVZZM2B8+NqYR38Blz8A==",
+      "version": "1.1.14",
+      "resolved": "https://registry.npmjs.org/secret-handshake/-/secret-handshake-1.1.14.tgz",
+      "integrity": "sha512-e4hiMTahaLiN5XKap1YrifoyT8yRu9yQEZrMTglTBgq8Lv8iChFKLpbmXYeNxy2rCnutuWaQDFbp3sBgl4NQ4g==",
       "requires": {
         "chloride": "2.2.10",
         "deep-equal": "1.0.1",
@@ -4350,7 +4358,7 @@
         "flumedb": "0.5.1",
         "flumelog-offset": "3.3.2",
         "flumeview-hashtable": "1.0.4",
-        "flumeview-level": "3.0.5",
+        "flumeview-level": "3.0.6",
         "flumeview-reduce": "1.3.13",
         "level": "3.0.2",
         "level-sublevel": "6.6.5",
@@ -4363,7 +4371,7 @@
         "pull-notify": "0.1.1",
         "pull-paramap": "1.2.2",
         "pull-stream": "3.6.9",
-        "ssb-keys": "7.1.2",
+        "ssb-keys": "7.1.3",
         "ssb-msgs": "5.2.0",
         "ssb-ref": "2.12.0",
         "ssb-validate": "3.0.11",
@@ -4717,9 +4725,9 @@
       }
     },
     "sodium-chloride": {
-      "version": "1.1.0",
-      "resolved": "https://registry.npmjs.org/sodium-chloride/-/sodium-chloride-1.1.0.tgz",
-      "integrity": "sha1-JHojS4iGf23/UTMrYF8ZOmW/aDk="
+      "version": "1.1.2",
+      "resolved": "https://registry.npmjs.org/sodium-chloride/-/sodium-chloride-1.1.2.tgz",
+      "integrity": "sha512-8AVzr9VHueXqfzfkzUA0aXe/Q4XG3UTmhlP6Pt+HQc5bbAPIJFo7ZIMh9tvn+99QuiMcyDJdYumegGAczl0N+g=="
     },
     "sodium-native": {
       "version": "2.2.2",
@@ -4825,7 +4833,7 @@
         "pull-hash": "1.0.0",
         "pull-stream": "3.6.9",
         "ssb-config": "2.3.2",
-        "ssb-keys": "7.1.2"
+        "ssb-keys": "7.1.3"
       }
     },
     "ssb-config": {
@@ -4859,7 +4867,7 @@
       "requires": {
         "flumeview-reduce": "1.3.13",
         "graphreduce": "3.0.4",
-        "layered-graph": "1.0.0",
+        "layered-graph": "1.1.0",
         "obv": "0.0.1",
         "pull-cont": "0.1.1",
         "pull-flatmap": "0.0.1",
@@ -4875,9 +4883,9 @@
       }
     },
     "ssb-keys": {
-      "version": "7.1.2",
-      "resolved": "https://registry.npmjs.org/ssb-keys/-/ssb-keys-7.1.2.tgz",
-      "integrity": "sha512-3lzLe60LPwHqFoIy8OW56GfWeFwY/PXXEX9muBU0BKKzaz6+ICjhzWbP05jr7dykIKROOmw9BvuoiulqbC/FYw==",
+      "version": "7.1.3",
+      "resolved": "https://registry.npmjs.org/ssb-keys/-/ssb-keys-7.1.3.tgz",
+      "integrity": "sha512-f66vIZ3LkeMx73enLTkPC9ecTUcUrjtVHvRt45nDmubGMom21Z82JQLWYbQ++09v3JG3B4XEir8inhv6AAISSQ==",
       "requires": {
         "chloride": "2.2.10",
         "mkdirp": "0.5.1",
@@ -4954,7 +4962,7 @@
           "version": "github:mmckegg/flumeview-query#59afdf210dbd8bdf53aeea7dcfaaec1c77e7d733",
           "requires": {
             "deep-equal": "1.0.1",
-            "flumeview-level": "3.0.5",
+            "flumeview-level": "3.0.6",
             "map-filter-reduce": "3.2.1",
             "pull-flatmap": "0.0.1",
             "pull-paramap": "1.2.2",
