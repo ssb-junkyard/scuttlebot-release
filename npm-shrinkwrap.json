@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "12.2.0-2",
+  "version": "12.2.0-3",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -1165,9 +1165,9 @@
       }
     },
     "flumeview-reduce": {
-      "version": "1.3.13",
-      "resolved": "https://registry.npmjs.org/flumeview-reduce/-/flumeview-reduce-1.3.13.tgz",
-      "integrity": "sha512-QN/07+ia3uXpfy8/xWjLI2XGIG67Aiwp9VaOTIqYt6NHP6OfdGfl8nGRPkJRHlkfFbzEouRvJcQBFohWEXMdNQ==",
+      "version": "1.3.14",
+      "resolved": "https://registry.npmjs.org/flumeview-reduce/-/flumeview-reduce-1.3.14.tgz",
+      "integrity": "sha512-hMk9g42JrD92PCmNDiET6JGjur09wQrlAUQRPjmsk8LNqDz/tC5upvCfiynIgWUphe8dZMhUHIzOTh75xa1WKA==",
       "requires": {
         "async-single": "1.0.5",
         "atomic-file": "1.1.5",
@@ -1243,7 +1243,7 @@
       "integrity": "sha512-z8H8/diyk76B7q5wg+Ud0+CqzcAF3mBBI/bA5ne5zrRUUIvNkJY//D3BqyH571KuAC4Nr7Rw7CjWX4r0y9DvNg==",
       "optional": true,
       "requires": {
-        "nan": "2.11.0",
+        "nan": "2.11.1",
         "node-pre-gyp": "0.10.0"
       },
       "dependencies": {
@@ -2953,9 +2953,9 @@
       }
     },
     "nan": {
-      "version": "2.11.0",
-      "resolved": "https://registry.npmjs.org/nan/-/nan-2.11.0.tgz",
-      "integrity": "sha512-F4miItu2rGnV2ySkXOQoA8FKz/SR2Q2sWP0sbTxNxz/tuokeC8WxOhPMcwi0qIyGtVn/rrSeLbvVkznqCdwYnw==",
+      "version": "2.11.1",
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.11.1.tgz",
+      "integrity": "sha512-iji6k87OSXa0CcrLl9z+ZiYSuR2o+c0bGuNmXdrhTQTakxytAFsC56SArGYoiHlJlFoHSnvmhpceZJaXkVuOtA==",
       "optional": true
     },
     "nanomatch": {
@@ -3242,9 +3242,9 @@
       }
     },
     "parse-entities": {
-      "version": "1.1.2",
-      "resolved": "https://registry.npmjs.org/parse-entities/-/parse-entities-1.1.2.tgz",
-      "integrity": "sha512-5N9lmQ7tmxfXf+hO3X6KRG6w7uYO/HL9fHalSySTdyn63C3WNvTM/1R8tn1u1larNcEbo3Slcy2bsVDQqvEpUg==",
+      "version": "1.2.0",
+      "resolved": "https://registry.npmjs.org/parse-entities/-/parse-entities-1.2.0.tgz",
+      "integrity": "sha512-XXtDdOPLSB0sHecbEapQi6/58U/ODj/KWfIXmmMCJF/eRn8laX6LZbOyioMoETOOJoWRW8/qTSl5VQkUIfKM5g==",
       "requires": {
         "character-entities": "1.2.2",
         "character-entities-legacy": "1.1.2",
@@ -4121,7 +4121,7 @@
         "markdown-table": "0.4.0",
         "minimatch": "3.0.4",
         "npm-prefix": "1.2.0",
-        "parse-entities": "1.1.2",
+        "parse-entities": "1.2.0",
         "repeat-string": "1.6.1",
         "stringify-entities": "1.3.2",
         "to-vfile": "1.0.0",
@@ -4246,9 +4246,9 @@
       }
     },
     "scuttlebot": {
-      "version": "12.2.0",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-12.2.0.tgz",
-      "integrity": "sha512-zSB0mcodvOOXumXDqITpB6mjmqPnW32pN3SreOF/cr4mpBpWSvSmvlmHQqAVH0RnorNVu0djjDXUO8SMjc+cWQ==",
+      "version": "12.2.1",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-12.2.1.tgz",
+      "integrity": "sha512-s0+8s1705qoMdCngq2aYzo1Xw0bSCxhOtKlVo/qjFw+eebfIfT4brwuUOC9tbtl+k7/sk0HlDeL7QNsIAZ8Qhw==",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "0.0.4",
@@ -4295,7 +4295,7 @@
         "secure-scuttlebutt": "18.3.3",
         "ssb-blobs": "1.1.5",
         "ssb-client": "4.6.0",
-        "ssb-config": "2.3.2",
+        "ssb-config": "2.3.4",
         "ssb-ebt": "5.2.3",
         "ssb-friends": "3.1.3",
         "ssb-keys": "7.1.3",
@@ -4359,7 +4359,7 @@
         "flumelog-offset": "3.3.2",
         "flumeview-hashtable": "1.0.4",
         "flumeview-level": "3.0.6",
-        "flumeview-reduce": "1.3.13",
+        "flumeview-reduce": "1.3.14",
         "level": "3.0.2",
         "level-sublevel": "6.6.5",
         "ltgt": "2.2.1",
@@ -4736,7 +4736,7 @@
       "optional": true,
       "requires": {
         "ini": "1.3.5",
-        "nan": "2.11.0",
+        "nan": "2.11.1",
         "node-gyp-build": "3.4.0"
       }
     },
@@ -4832,14 +4832,14 @@
         "muxrpc": "6.4.1",
         "pull-hash": "1.0.0",
         "pull-stream": "3.6.9",
-        "ssb-config": "2.3.2",
+        "ssb-config": "2.3.4",
         "ssb-keys": "7.1.3"
       }
     },
     "ssb-config": {
-      "version": "2.3.2",
-      "resolved": "https://registry.npmjs.org/ssb-config/-/ssb-config-2.3.2.tgz",
-      "integrity": "sha512-u+pUKX+ZL8KbfdwL49GuHaVD8kh+LkdLcKyCO+Rxn/MKLfZ1JFfuhm6yZ4ppQu9oTmq/1C49eLpNwZtrLIjVCg==",
+      "version": "2.3.4",
+      "resolved": "https://registry.npmjs.org/ssb-config/-/ssb-config-2.3.4.tgz",
+      "integrity": "sha512-Yp0DKsc9eSaU+9+5xMO4/NVdOFyBtHD+QgraZ+1Id2K4f0eUiKpJ2ogLNmGanTvkLVhm/vq27TLI27Fq83njWQ==",
       "requires": {
         "deep-extend": "0.6.0",
         "non-private-ip": "1.4.4",
@@ -4865,7 +4865,7 @@
       "resolved": "https://registry.npmjs.org/ssb-friends/-/ssb-friends-3.1.3.tgz",
       "integrity": "sha512-bufgvAcqjAyjKfmh788dr3fV9YYrIgdkIhfETPHidbgIKgx15clNUzjP/s7FZk2PwwrjHyQ54kE0BR2em6u/nQ==",
       "requires": {
-        "flumeview-reduce": "1.3.13",
+        "flumeview-reduce": "1.3.14",
         "graphreduce": "3.0.4",
         "layered-graph": "1.1.0",
         "obv": "0.0.1",
