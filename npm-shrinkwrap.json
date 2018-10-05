@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "12.2.1",
+  "version": "12.2.2",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -2502,7 +2502,7 @@
       "dependencies": {
         "nan": {
           "version": "2.10.0",
-          "resolved": "https://registry.npmjs.org/nan/-/nan-2.10.0.tgz",
+          "resolved": "http://registry.npmjs.org/nan/-/nan-2.10.0.tgz",
           "integrity": "sha512-bAdJv7fBLhWC+/Bls0Oza+mvTaNQtP+1RyhhhvD95pgUJz6XM5IzgmxOkItJ9tkoCiplvAnXI1tNmmUD/eScyA=="
         }
       }
@@ -2999,9 +2999,9 @@
       "integrity": "sha1-GVoh1sRuNh0vsSgbo4uR6d9727M="
     },
     "node-abi": {
-      "version": "2.4.4",
-      "resolved": "https://registry.npmjs.org/node-abi/-/node-abi-2.4.4.tgz",
-      "integrity": "sha512-DQ9Mo2mf/XectC+s6+grPPRQ1Z9gI3ZbrGv6nyXRkjwT3HrE0xvtvrfnH7YHYBLgC/KLadg+h3XHnhZw1sv88A==",
+      "version": "2.4.5",
+      "resolved": "https://registry.npmjs.org/node-abi/-/node-abi-2.4.5.tgz",
+      "integrity": "sha512-aa/UC6Nr3+tqhHGRsAuw/edz7/q9nnetBrKWxj6rpTtm+0X9T1qU7lIEHMS3yN9JwAbRiKUbRRFy1PLz/y3aaA==",
       "requires": {
         "semver": "5.5.1"
       }
@@ -3350,7 +3350,7 @@
         "github-from-package": "0.0.0",
         "minimist": "1.2.0",
         "mkdirp": "0.5.1",
-        "node-abi": "2.4.4",
+        "node-abi": "2.4.5",
         "noop-logger": "0.1.1",
         "npmlog": "4.1.2",
         "os-homedir": "1.0.2",
@@ -4246,9 +4246,9 @@
       }
     },
     "scuttlebot": {
-      "version": "12.2.2",
-      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-12.2.2.tgz",
-      "integrity": "sha512-uai1B1Ao8iU8E6pQzgyAk4b9eh0nt1eaJrJ2ZpudJLz3dSuPMjblrLY9LtxS6nHE8uE2cNu7CTwja7ISB6DuIQ==",
+      "version": "12.2.3",
+      "resolved": "https://registry.npmjs.org/scuttlebot/-/scuttlebot-12.2.3.tgz",
+      "integrity": "sha512-Y40HTj8B8DHdGUCbup//Ge/BiVcmp6fVPCGHnn5Jmq0QyQitlnFUaeMlv2fdqealM4xB3xuCTS2KChbiRJOWtw==",
       "requires": {
         "atomic-file": "0.0.1",
         "bash-color": "0.0.4",
@@ -4395,7 +4395,7 @@
         },
         "bl": {
           "version": "0.8.2",
-          "resolved": "https://registry.npmjs.org/bl/-/bl-0.8.2.tgz",
+          "resolved": "http://registry.npmjs.org/bl/-/bl-0.8.2.tgz",
           "integrity": "sha1-yba8oI0bwuoA/Ir7Txpf0eHGbk4=",
           "requires": {
             "readable-stream": "1.0.34"
@@ -4763,9 +4763,9 @@
       "integrity": "sha1-PpNdfd1zYxuXZZlW1VEo6HtQhKM="
     },
     "spdx-correct": {
-      "version": "3.0.0",
-      "resolved": "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.0.0.tgz",
-      "integrity": "sha512-N19o9z5cEyc8yQQPukRCZ9EUmb4HUpnrmaL/fxS2pBo2jbfcFRVuFZ/oFC+vZz0MNNk0h80iMn5/S6qGZOL5+g==",
+      "version": "3.0.1",
+      "resolved": "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.0.1.tgz",
+      "integrity": "sha512-hxSPZbRZvSDuOvADntOElzJpenIR7wXJkuoUcUtS0erbgt2fgeaoPIYretfKpslMhfFDY4k0MZ2F5CUzhBsSvQ==",
       "dev": true,
       "requires": {
         "spdx-expression-parse": "3.0.0",
@@ -4773,9 +4773,9 @@
       }
     },
     "spdx-exceptions": {
-      "version": "2.1.0",
-      "resolved": "https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.1.0.tgz",
-      "integrity": "sha512-4K1NsmrlCU1JJgUrtgEeTVyfx8VaYea9J9LvARxhbHtVtohPs/gFGG5yy49beySjlIMhhXZ4QqujIZEfS4l6Cg==",
+      "version": "2.2.0",
+      "resolved": "https://registry.npmjs.org/spdx-exceptions/-/spdx-exceptions-2.2.0.tgz",
+      "integrity": "sha512-2XQACfElKi9SlVb1CYadKDXvoajPgBVPn/gOQLrTvHdElaVhr7ZEbqJaRnJLVNeaI4cMEAgVCeBMKF6MWRDCRA==",
       "dev": true
     },
     "spdx-expression-parse": {
@@ -4784,7 +4784,7 @@
       "integrity": "sha512-Yg6D3XpRD4kkOmTpdgbUiEJFKghJH03fiC1OPll5h/0sO6neh2jqRDVHOQ4o/LMea0tgCkbMgea5ip/e+MkWyg==",
       "dev": true,
       "requires": {
-        "spdx-exceptions": "2.1.0",
+        "spdx-exceptions": "2.2.0",
         "spdx-license-ids": "3.0.1"
       }
     },
@@ -5111,7 +5111,7 @@
     },
     "strip-ansi": {
       "version": "3.0.1",
-      "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz",
+      "resolved": "http://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz",
       "integrity": "sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=",
       "requires": {
         "ansi-regex": "2.1.1"
@@ -5539,7 +5539,7 @@
       "integrity": "sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==",
       "dev": true,
       "requires": {
-        "spdx-correct": "3.0.0",
+        "spdx-correct": "3.0.1",
         "spdx-expression-parse": "3.0.0"
       }
     },
