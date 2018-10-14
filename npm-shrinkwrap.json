@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "12.2.3",
+  "version": "13.0.0",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -3229,7 +3229,7 @@
     },
     "packet-stream": {
       "version": "2.0.4",
-      "resolved": "https://registry.npmjs.org/packet-stream/-/packet-stream-2.0.4.tgz",
+      "resolved": "http://registry.npmjs.org/packet-stream/-/packet-stream-2.0.4.tgz",
       "integrity": "sha512-7+oxHdMMs6VhLvvbrDUc8QNuelE9fPKLDdToXBIKLPKOlnoBeMim+/35edp+AnFTLzk3xcogVvQ/jrZyyGsEiw=="
     },
     "packet-stream-codec": {
@@ -4894,7 +4894,7 @@
     },
     "ssb-links": {
       "version": "3.0.3",
-      "resolved": "https://registry.npmjs.org/ssb-links/-/ssb-links-3.0.3.tgz",
+      "resolved": "http://registry.npmjs.org/ssb-links/-/ssb-links-3.0.3.tgz",
       "integrity": "sha512-x09ShIMjwvdZI7aDZm8kc1v5YCGZa9ulCOoxrf/RYJ98s5gbTfO9CBCzeMBAeQ5kRwSuKjiOxJHdeEBkj4Y6hw==",
       "requires": {
         "flumeview-query": "6.3.0",
@@ -4954,14 +4954,14 @@
       "integrity": "sha512-y4OA2MvGl1jU7bUTYsTmMNSqlPt4eh9401THUW1DO4aFyBFEWvpa3eKJHc8aTmaph2hutPPbdKgEFsWDzw26uw==",
       "requires": {
         "explain-error": "1.0.4",
-        "flumeview-query": "7.0.0",
+        "flumeview-query": "7.1.0",
         "pull-stream": "3.6.9"
       },
       "dependencies": {
         "flumeview-query": {
-          "version": "7.0.0",
-          "resolved": "https://registry.npmjs.org/flumeview-query/-/flumeview-query-7.0.0.tgz",
-          "integrity": "sha512-lk3Gs5wf6BwZKDafjE95/r0wv4nkMRsZULmulDCybFu1mPFeqUMR4H+ENcg+fgOpQBGaiNRTyHPQyg0OLur2wA==",
+          "version": "7.1.0",
+          "resolved": "https://registry.npmjs.org/flumeview-query/-/flumeview-query-7.1.0.tgz",
+          "integrity": "sha512-z/23qWuRW5dj7yNJ1i61R0RgnUWn4rdaf9Fr1Ckz3CzKpwJBWR1MqnABuGY3k1PZg1T11Busm2aRdb6oH1ZLsQ==",
           "requires": {
             "deep-equal": "1.0.1",
             "flumeview-level": "3.0.6",
