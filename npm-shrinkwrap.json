@@ -1,6 +1,6 @@
 {
   "name": "scuttlebot-release",
-  "version": "13.0.0",
+  "version": "13.0.0-1",
   "lockfileVersion": 1,
   "requires": true,
   "dependencies": {
@@ -392,6 +392,11 @@
         "camelcase": "2.1.1",
         "map-obj": "1.0.1"
       }
+    },
+    "canonical-base64": {
+      "version": "1.1.0",
+      "resolved": "https://registry.npmjs.org/canonical-base64/-/canonical-base64-1.1.0.tgz",
+      "integrity": "sha512-vHhtZX7TXMG0t8eEisjlOkNjDtaRkjqctDBVridYdqQNRYD8tbjw6GUSMqhSgkbnvIo6tCpDapzsDNitYcnH0Q=="
     },
     "cat-names": {
       "version": "1.0.2",
@@ -1142,7 +1147,7 @@
       "requires": {
         "deep-equal": "1.0.1",
         "flumeview-level": "3.0.6",
-        "map-filter-reduce": "3.2.1",
+        "map-filter-reduce": "3.2.2",
         "pull-flatmap": "0.0.1",
         "pull-paramap": "1.2.2",
         "pull-sink-through": "0.0.0",
@@ -1150,9 +1155,9 @@
       },
       "dependencies": {
         "map-filter-reduce": {
-          "version": "3.2.1",
-          "resolved": "https://registry.npmjs.org/map-filter-reduce/-/map-filter-reduce-3.2.1.tgz",
-          "integrity": "sha512-0+0C/3IVCX8PLXRyBL0umF/YMy3/ch7Zgxu91ZUIXS6YHyv4UVMZlkclUk9rQI63FQ+uvBdHYzo8VPJbIxKTVw==",
+          "version": "3.2.2",
+          "resolved": "https://registry.npmjs.org/map-filter-reduce/-/map-filter-reduce-3.2.2.tgz",
+          "integrity": "sha512-p+NIGQbEBxlw/qWwG+NME98G/9kjOQI70hmaH8QEZtIWfTmfMYLKQW4PJChP4izPHNAxlOfv/qefP0+2ZXn84A==",
           "requires": {
             "binary-search": "1.3.4",
             "compare-at-paths": "1.0.0",
@@ -2241,7 +2246,7 @@
       "requires": {
         "level-packager": "2.1.1",
         "leveldown": "3.0.2",
-        "opencollective-postinstall": "2.0.0"
+        "opencollective-postinstall": "2.0.1"
       }
     },
     "level-codec": {
@@ -3199,9 +3204,9 @@
       "integrity": "sha1-ofeDj4MUxRbwXs78vEzP4EtO14k="
     },
     "opencollective-postinstall": {
-      "version": "2.0.0",
-      "resolved": "https://registry.npmjs.org/opencollective-postinstall/-/opencollective-postinstall-2.0.0.tgz",
-      "integrity": "sha512-XAe80GycLe2yRGnJsUtt+EO5lk06XYRQt4kJJe53O2kJHPZJOZ+XMF/b47HW96e6LhfKVpwnXVr/s56jhV98jg=="
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/opencollective-postinstall/-/opencollective-postinstall-2.0.1.tgz",
+      "integrity": "sha512-saQQ9hjLwu/oS0492eyYotoh+bra1819cfAT5rjY/e4REWwuc8IgZ844Oo44SiftWcJuBiqp0SA0BFVbmLX0IQ=="
     },
     "options": {
       "version": "0.0.6",
@@ -4100,7 +4105,7 @@
     },
     "remark": {
       "version": "3.2.3",
-      "resolved": "https://registry.npmjs.org/remark/-/remark-3.2.3.tgz",
+      "resolved": "http://registry.npmjs.org/remark/-/remark-3.2.3.tgz",
       "integrity": "sha1-gCo4w6qYyeHj6gFe66IR0ny2Xh8=",
       "requires": {
         "camelcase": "2.1.1",
@@ -4295,14 +4300,14 @@
         "secure-scuttlebutt": "18.5.0",
         "ssb-blobs": "1.1.5",
         "ssb-client": "4.6.0",
-        "ssb-config": "2.3.5",
+        "ssb-config": "2.3.6",
         "ssb-ebt": "5.2.3",
         "ssb-friends": "3.1.3",
         "ssb-keys": "7.1.3",
         "ssb-links": "3.0.3",
         "ssb-msgs": "5.2.0",
         "ssb-query": "2.3.0",
-        "ssb-ref": "2.12.0",
+        "ssb-ref": "2.12.2",
         "ssb-ws": "3.0.0",
         "statistics": "3.3.0",
         "stream-to-pull-stream": "1.7.2",
@@ -4373,14 +4378,14 @@
         "pull-stream": "3.6.9",
         "ssb-keys": "7.1.3",
         "ssb-msgs": "5.2.0",
-        "ssb-ref": "2.12.0",
+        "ssb-ref": "2.12.2",
         "ssb-validate": "3.0.11",
         "typewiselite": "1.0.0"
       },
       "dependencies": {
         "abstract-leveldown": {
           "version": "0.12.4",
-          "resolved": "https://registry.npmjs.org/abstract-leveldown/-/abstract-leveldown-0.12.4.tgz",
+          "resolved": "http://registry.npmjs.org/abstract-leveldown/-/abstract-leveldown-0.12.4.tgz",
           "integrity": "sha1-KeGOYy5g5OIh1YECR4UqY9ey5BA=",
           "requires": {
             "xtend": "3.0.0"
@@ -4818,7 +4823,7 @@
         "pull-level": "2.0.4",
         "pull-notify": "0.1.1",
         "pull-stream": "3.6.9",
-        "ssb-ref": "2.12.0"
+        "ssb-ref": "2.12.2"
       }
     },
     "ssb-client": {
@@ -4832,14 +4837,14 @@
         "muxrpc": "6.4.1",
         "pull-hash": "1.0.0",
         "pull-stream": "3.6.9",
-        "ssb-config": "2.3.5",
+        "ssb-config": "2.3.6",
         "ssb-keys": "7.1.3"
       }
     },
     "ssb-config": {
-      "version": "2.3.5",
-      "resolved": "https://registry.npmjs.org/ssb-config/-/ssb-config-2.3.5.tgz",
-      "integrity": "sha512-lT30POSTXX6nsACYwMkNto0M74YMoEzLqpSpZqK+AwaRWlNvFqGmjEMwLb5G5jz7deCrXJFo87O3IubiQrwdGg==",
+      "version": "2.3.6",
+      "resolved": "https://registry.npmjs.org/ssb-config/-/ssb-config-2.3.6.tgz",
+      "integrity": "sha512-gR6og13QBkHxoeGcqVtD4MDPi+4UM2SRadglTIgHRs24lzRhk7YyI9oCESOMYtVmR09i4X24+LruBZbVkyXLBw==",
       "requires": {
         "deep-extend": "0.6.0",
         "non-private-ip": "1.4.4",
@@ -4857,7 +4862,7 @@
         "lossy-store": "1.2.3",
         "pull-stream": "3.6.9",
         "push-stream-to-pull-stream": "1.0.3",
-        "ssb-ref": "2.12.0"
+        "ssb-ref": "2.12.2"
       }
     },
     "ssb-friends": {
@@ -4872,7 +4877,7 @@
         "pull-cont": "0.1.1",
         "pull-flatmap": "0.0.1",
         "pull-stream": "3.6.9",
-        "ssb-ref": "2.12.0"
+        "ssb-ref": "2.12.2"
       },
       "dependencies": {
         "pull-cont": {
@@ -4945,7 +4950,7 @@
       "resolved": "https://registry.npmjs.org/ssb-msgs/-/ssb-msgs-5.2.0.tgz",
       "integrity": "sha1-xoHaXNcMV0ySLcpPA8UhU4E1wkM=",
       "requires": {
-        "ssb-ref": "2.12.0"
+        "ssb-ref": "2.12.2"
       }
     },
     "ssb-query": {
@@ -4965,7 +4970,7 @@
           "requires": {
             "deep-equal": "1.0.1",
             "flumeview-level": "3.0.6",
-            "map-filter-reduce": "3.2.1",
+            "map-filter-reduce": "3.2.2",
             "pull-flatmap": "0.0.1",
             "pull-paramap": "1.2.2",
             "pull-sink-through": "0.0.0",
@@ -4973,9 +4978,9 @@
           }
         },
         "map-filter-reduce": {
-          "version": "3.2.1",
-          "resolved": "https://registry.npmjs.org/map-filter-reduce/-/map-filter-reduce-3.2.1.tgz",
-          "integrity": "sha512-0+0C/3IVCX8PLXRyBL0umF/YMy3/ch7Zgxu91ZUIXS6YHyv4UVMZlkclUk9rQI63FQ+uvBdHYzo8VPJbIxKTVw==",
+          "version": "3.2.2",
+          "resolved": "https://registry.npmjs.org/map-filter-reduce/-/map-filter-reduce-3.2.2.tgz",
+          "integrity": "sha512-p+NIGQbEBxlw/qWwG+NME98G/9kjOQI70hmaH8QEZtIWfTmfMYLKQW4PJChP4izPHNAxlOfv/qefP0+2ZXn84A==",
           "requires": {
             "binary-search": "1.3.4",
             "compare-at-paths": "1.0.0",
@@ -4988,10 +4993,11 @@
       }
     },
     "ssb-ref": {
-      "version": "2.12.0",
-      "resolved": "https://registry.npmjs.org/ssb-ref/-/ssb-ref-2.12.0.tgz",
-      "integrity": "sha512-xcVFLYgvWkxZoNDCOQHLqgHYsjmfunVkdby9OPEygjufXbiW6zpnFTBqlqEBojBetxxtVdwCgZreD9kYXED/ZA==",
+      "version": "2.12.2",
+      "resolved": "https://registry.npmjs.org/ssb-ref/-/ssb-ref-2.12.2.tgz",
+      "integrity": "sha512-sq+/wbGigcj0IvWt38Wjm+3j1T8AlLFGX7+VogLfDobJOtCPfWV9krzw2TuDzkjTpBozu+Hu7TTsY2WWvPVxYg==",
       "requires": {
+        "canonical-base64": "1.1.0",
         "ip": "1.1.5",
         "is-valid-domain": "0.0.6"
       },
@@ -5008,7 +5014,7 @@
       "resolved": "https://registry.npmjs.org/ssb-validate/-/ssb-validate-3.0.11.tgz",
       "integrity": "sha512-mZPI9HKZtqPP7Qi26B0GR7HqYmmcELEaoj5zr8TlUcULg9BOZy7f4VSzcKZ36LIkvpuK2sfA6znxIlBLq78fjg==",
       "requires": {
-        "ssb-ref": "2.12.0"
+        "ssb-ref": "2.12.2"
       }
     },
     "ssb-ws": {
@@ -5021,7 +5027,7 @@
         "multiserver": "1.13.5",
         "muxrpc": "6.4.1",
         "pull-box-stream": "1.0.13",
-        "ssb-ref": "2.12.0",
+        "ssb-ref": "2.12.2",
         "stack": "0.1.0"
       }
     },
